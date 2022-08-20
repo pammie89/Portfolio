@@ -1,0 +1,38 @@
+.name {
+    color: white;
+    font-family: 'Allura', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.bg-dark-header {
+      
+    background-color: #e8e6d9;
+
+    
+}
+
+.bg-dark-custom {
+    --bs-bg-opacity: 1;
+    background-color: #d2a9b0;
+}
+
+
+@media (min-width: 1200px){
+.fs-4 {
+    font-size: 1.5rem!important;
+}
+}
+.fs-4 {
+    font-size: calc(2.0rem + .5vw)!important;
+}
+
+.py-4-custom {
+    padding-top: 1.2rem!important;
+    padding-bottom: 1.1rem!important;
+}
+
+.text-muted-custom {
+    --bs-text-opacity: 1;
+    color: white;
+}

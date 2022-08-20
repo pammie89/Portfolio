@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    
+}
+
+
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #f8f9fa;
+    --bs-nav-link-hover-color: #ffc107;
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 4rem;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 550;
+}
+
+.nav-item {
+    padding-right: 2rem;
+}
+
+.active {
+    
+    color: #B97687;
+    text-decoration: underline;
+  }
+
+.nav-footer {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: #f8f9fa;
+    --bs-nav-link-hover-color: #ffc107;
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 4rem;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 550;
+    color: white;
+}
+
+.nav-item-footer {
+    /* padding-right: 2rem; */
+    margin-left: 2rem;
+    color: white;
+}
+
+.nav-item-footer:hover{
+    /* padding-right: 2rem; */
+    margin-left: 2rem;
+    color: white;
+}
+.nav-item-footer:active {
+    /* padding-right: 2rem; */
+    margin-left: 2rem;
+    color: white;
+}
+
+.nav-item-footer:visited {
+    /* padding-right: 2rem; */
+    margin-left: 2rem;
+    color: white;
+}
+
+.nav-link {
+    padding-top: 1rem;
+}
+
+
+.nav-link:active {
+    color: #ebcfc4;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #EBCFC4;
+}
+
+header {
+    background: #999999;
+}
+
+.name {
+    color: white;
+    font-family: 'Allura', cursive;
+}
+
+.myintro {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.video {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.aboutmeParagraph {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.bioArea {
+    background: #f3ece7;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.bio {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.aboutmeParagraph {
+    padding-left: 2rem;
+}
+
+.quote {
+    padding-right: 2rem;
+}
+
+.bioPic {
+    
+    align-items: center;
+}
+
+.projects-custom {
+    width: 100%;
+    background-color: #d2a9b0;
+    background-size: cover;
+    color: #ffffff;
+    padding-bottom: 2.5rem;
+}
+
+.btn-project {
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: #999999;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+    stroke: none;
+    border: none;
+    padding: 5px 20px;
+
+}
+
+.btn-project:hover {
+    font-size: 1.3em;
+    font-weight: 600;
+    background-color: #C4bdac;
+    color: white;
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: #ebcfc4;
+}
+
+.card-body-custom {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: #3a151c;
+}
+
+.py-3-custom {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+    background-color: #999999;
+}
+
+.about-bg {
+    background-color: #fb9e32;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #d3c4be;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+        text-shadow:none; 
+        box-shadow: none;
+    
+}
+
+.display-3-custom {
+    font-size: calc(1.205rem + 2.3vw);
+    font-weight: 300;
+    line-height: 1.2;
+    color: #222;
+}
+
+.project-link {
+    background-color: #B97687
+}
+
+.img-fluid-custom {
+    max-width: 50%;
+    height: auto;
+    /* text-align: center; */
+}
